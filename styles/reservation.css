@@ -1,0 +1,132 @@
+/* forms CSS */
+#forms .note {
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+#forms input[type=text],
+#forms input[type=number],
+#forms input[type=tel],
+#forms input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+}
+
+#forms textarea, select {
+    width: 100%;
+    padding: 41px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 6px;
+}
+
+#forms .input-group-addon {
+    background-color: none;
+    border: none;
+}
+
+#forms .main-heading {
+    text-align: center;
+    margin: 30px 0 !important;
+    line-height: 42px !important;
+}
+
+#forms .form-content {
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+
+#forms .form-control{
+    border-radius:1.5rem;
+}
+
+#forms .btnSubmit {
+    border:none;
+    border-radius:0.75rem;
+    padding: 8px;
+    width: 40%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 30%;
+}
+
+#forms .form-wrap {
+    padding: 2% 5%;
+}
+#forms .timingsHeader{
+    margin-bottom:30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #012169;
+    margin-top: 20px;
+    text-align: center;
+}
+#forms .form-group {
+    margin-bottom: 5px;
+}
+#forms .form-control {
+    border-radius: 0px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 52px;
+    padding: 0px;
+    line-height: 1.42857143;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid #cbcfce;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075);
+}
+#forms .textAreaSize {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+#forms h5 {
+    text-align: center;
+}
+/* Form Wraps */
+#forms .form-wrap {
+    border-radius: 8px;
+    width: 100%;
+    padding-right:20px;
+    padding-left:20px;
+    /* padding: 5% 9%; *Add it in the contact form and schedule**/
+    border: solid 1px #ddd;
+    background-color: #f5f5f5;
+    -webkit-transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+    transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+#forms .form-wrap:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,.07);
+    border: solid 1px rgba(100,40,145,.97);
+}
+#forms .form-control:focus {
+    color: #34b2a4 !important;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom-color: #34b2a4;
+    font-size: 12px;
+}
